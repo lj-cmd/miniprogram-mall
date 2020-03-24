@@ -1,0 +1,50 @@
+/* pages/cart/childCpns/bottom-bar/bottom-bar.wxss */
+.bottom-bar {
+  height: 44px;
+  background: white;
+  padding-left: 15px;
+  border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.check-box {
+  flex: 1;
+  display: flex;
+  /* width: 150rpx; */
+  /* align-items: center; */
+}
+
+.counter {
+  /* flex: 1; */
+  font-size: 16px;
+  
+}
+
+.bottom-bar > .payment {
+  border-radius: 24px;
+  padding: 10px 0;
+  width: 88px;
+  background-color: #FF8198;
+  border: 1px solid #FF8198;
+  line-height: 1;
+  color: white;
+  margin: 0px 6px;
+  font-size: 14px ;
+  font-weight: 1;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.price {
+  color: #ff5777;
+  font-size: 12px;
+}

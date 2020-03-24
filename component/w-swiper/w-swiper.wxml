@@ -1,0 +1,10 @@
+<!--component/w-swiper/w-swiper.wxml-->
+<!-- circular:衔接滚动；autoplay:自动滚动；interval:滚动间隔 -->
+<swiper class="swiper"  circular="{{circular}}" autoplay="{{autoplay}}" duration="{{duration}}" 	  interval="{{interval}}" indicator-dots="{{indicatorDots}}" indicator-active-color="{{indicatorActiveColor}}" style="height:{{hei}}">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item class="swiper-item">
+      <image class="img"  src="{{item.image || item}}" mode="widthFix" bindload='imgLoad'/>
+    </swiper-item>
+  </block>
+</swiper>
+

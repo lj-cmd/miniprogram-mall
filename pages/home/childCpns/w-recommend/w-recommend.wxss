@@ -1,0 +1,22 @@
+/* pages/home/childCpns/w-recommends/w-recommend.wxss */
+ .recommend {
+  display: flex;
+  margin-top: 10px;
+  border-bottom: 16rpx solid #eee
+ }
+
+ .recommend-item {
+   text-align: center;
+  flex: 1;
+ }
+
+ .img {
+   width: 160rpx;
+   height: 160rpx;
+ }
+
+ .vie {
+  font-size: 30rpx;
+  color: darkgrey;
+  margin-top: 6px;
+}

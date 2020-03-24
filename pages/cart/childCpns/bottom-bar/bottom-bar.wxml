@@ -1,0 +1,11 @@
+<!--pages/cart/childCpns/bottom-bar/bottom-bar.wxml-->
+<view class="bottom-bar">
+  <view class="check-box">
+    <check-icon icon="icon" isChecked="{{selected}}" bindtap="bottomCheckall" />
+    <view>全选</view>
+  </view>
+  <view class="counter">
+    合计:<text class="price">￥{{price}}</text>
+  </view>
+  <button class="payment" size="mini">结算{{counter > 0 ? '(' + counter + ')' : ''}}</button>
+</view>

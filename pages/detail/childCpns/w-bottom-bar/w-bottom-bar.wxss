@@ -1,0 +1,41 @@
+/* pages/detail/childCpns/w-bottom-bar/w-bottom-bar.wxss */
+.bottom-bar {
+  display: flex;
+  height: 50px;
+  font-size: 30rpx;
+  box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+  /*一参数：阴影在水平(x轴)位置 二参：阴影在垂直(y轴); 三参：范围大小   */
+}
+
+.bar-item {
+  flex: 1;
+  display: flex;
+}
+
+.left-item, .right-item {
+  flex: 1;
+  text-align: center;
+}
+
+.left-item {
+  font-size: 28rpx;
+}
+
+.left-item-image{
+  margin-top: 8px;
+  width: 46rpx;
+  height: 46rpx;
+}
+
+.right-item {
+  line-height: 50px;
+}
+
+.cart {
+  background: #ffe817;
+}
+
+.buy {
+  background: #ff5777;
+  color: #fff;
+}

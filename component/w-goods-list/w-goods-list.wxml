@@ -1,0 +1,40 @@
+<!--多个页面切换-->
+<block wx:if="{{!isArray}}" wx:for="{{goods}}" wx:for-item="obj" wx:key="index">
+    <view hidden="{{index != currentType}}" class="goods">
+      <block wx:for="{{obj.list}}" wx:key="index">
+        <view class="goods-item" bind:tap="itemClick" data-iid="{{item.iid}}">
+          <image lazy-load class="image" src="{{item.image || item.img || item.show.img}}" mode="widthFix" />
+          <view class="desc-info">
+            <view class="title">{{item.title}}</view>
+            <view class="info">
+              <text class="price">￥{{item.price}}</text>
+              <image src="/assets/images/common/favor.png" class="icon" />
+              <text class="cfav">{{item.cfav}}</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+</block>
+<!-- ↓数据为数组的情况，单页面 -->
+<block wx:if="{{isArray}}">
+  <view class="goods">
+    <block  wx:for="{{goods}}" wx:key="index">
+      <view class="goods-item" bind:tap="itemClick" data-iid="{{item.iid || item.item_id}}">
+        <image lazy-load class="image" src="{{item.image || item.img || item.show.img}}" mode="widthFix" />
+        <view class="desc-info">
+          <view class="title">{{item.title}}</view>
+          <view class="info">
+            <text class="price">￥{{item.price}}</text>
+            <image src="/assets/images/common/favor.png" class="icon" />
+            <text class="cfav">{{item.cfav}}</text>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</block>
+
+
+
+

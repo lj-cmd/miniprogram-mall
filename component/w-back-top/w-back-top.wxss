@@ -1,0 +1,11 @@
+/* component/w-back-top/w-back-top.wxss */
+.back-top {
+  position: fixed;
+  right: 12rpx;
+  bottom: 8rpx
+}
+
+.image {
+  width: 100rpx;
+  height: 100rpx;
+}

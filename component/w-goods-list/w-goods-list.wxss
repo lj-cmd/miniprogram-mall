@@ -1,0 +1,51 @@
+/* component/w-goods-list/w-goods-list.wxss */
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /*属性用于指定项目在主轴上的对齐方式:*/
+  /* padding: 8rpx; */
+}
+
+.goods-item {
+  position: relative;
+  width: 48%;
+  margin-top: 20rpx;
+  text-align: center;
+  padding-bottom: 85rpx;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+
+.desc-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2rpx;
+}
+
+.title {
+  font-size: 28rpx;
+  white-space: nowrap; /*文本超出不换行；默认是换行的*/
+  overflow: hidden;
+  text-overflow: ellipsis; /*超出的文本用 ... 省略；前提是设置了overflow: hidden*/
+}
+
+.info {
+  font-size: 26rpx;
+}
+
+.info .price {
+  color: #ff5777;
+}
+
+.info .icon {
+  width: 30rpx;
+  height: 30rpx;
+  padding: 0 6rpx 0 10rpx;
+  /* position: relative; */
+  top: 4rpx;
+}
+

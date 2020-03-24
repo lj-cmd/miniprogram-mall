@@ -1,0 +1,4 @@
+/* pages/detail/detail.wxss */
+.detail {
+  height: calc(100vh - 50px);
+}

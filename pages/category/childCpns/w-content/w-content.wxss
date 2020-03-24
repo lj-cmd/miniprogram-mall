@@ -1,0 +1,26 @@
+/* pages/category/childCpns/w-content/w-content.wxss */
+.content {
+  height: 100%;
+}
+
+.subcategory {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  margin-top: 15rpx;
+}
+
+.item {
+  width: 33.33%;
+  text-align: center;
+}
+
+.subcategory-image {
+  width: 80%;
+}
+
+.subcategory-title {
+  font-size: 28rpx;
+  margin: 12px 0;
+}
+

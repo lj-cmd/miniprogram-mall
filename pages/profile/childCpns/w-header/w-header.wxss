@@ -1,0 +1,47 @@
+/* pages/profile/childCpns/w-header/w-header.wxss */
+.header {
+  position: relative;
+  display: flex;
+  background: #ff5777;
+  height: 170rpx;
+  padding: 12rpx 30rpx;
+  color: #fff;
+}
+
+.avatar-img {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+}
+
+.login-info {
+  flex: 1;
+  margin-left: 30rpx;
+}
+
+.login {
+  font-size: 36rpx;
+  margin-top: 18rpx;
+}
+
+.phone {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+
+.phone-img {
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+}
+
+.arrow {
+  position: relative;
+  top: 28rpx;
+}
+
+.arrow-img {
+  width: 60rpx;
+  height: 60rpx;
+}

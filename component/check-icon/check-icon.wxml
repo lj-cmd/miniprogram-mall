@@ -1,0 +1,2 @@
+<!--component/back-top/check-icon.wxml-->
+<icon class="check-icon icon" type="success" size="{{size}}"  color="{{isChecked ? '#ff5777' : '#fff'}}"></icon>
